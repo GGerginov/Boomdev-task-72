@@ -1,4 +1,5 @@
 import "./App.css";
+import {Tags} from "./Tags";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           Edit the <code>./src</code> folder to add components.
         </div>
       </div>
+      <Tags tags = {["boomdotdev", "task", "tags", "react"]}/>
     </div>
   );
 }
