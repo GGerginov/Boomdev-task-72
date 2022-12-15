@@ -1,9 +1,7 @@
-export function Tag(data) {
+export function Tag() {
 
-  // let tagName = data.tagName
-
-  return <div>
-    {/*<a className="tag" href={"#" + tagName}>{tagName}</a>*/}
+  return <div className="tag">
+    "#"
   </div>
 }
 
