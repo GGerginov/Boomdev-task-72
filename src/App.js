@@ -15,7 +15,7 @@ function App() {
           Edit the <code>./src</code> folder to add components.
         </div>
       </div>
-      <Tags/>
+      <Tags tags = {["boomdotdev", "task", "tags", "react"]}/>
     </div>
   );
 }

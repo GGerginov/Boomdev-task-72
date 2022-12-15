@@ -1,6 +1,6 @@
-export function Tags() {
+export function Tags(props) {
 
-  let tags = ["boomdotdev", "task", "tags", "react"]
+  let tags = props.tags
 
   return <div className="tags">
     <div className="tag">
