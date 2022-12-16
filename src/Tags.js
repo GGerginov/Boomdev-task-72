@@ -1,19 +1,12 @@
+import Tag from "./Tag";
+
 export function Tags(props) {
 
-  let tags = props.tags
 
   return <div className="tags">
-    <div className="tag">
-      #{tags[0]}
-    </div>
-    <div className="tag">
-      #{tags[1]}
-    </div>
-    <div className="tag">
-      #{tags[2]}
-    </div>
-    <div className="tag">
-      #{tags[3]}
-    </div>
+    <Tag tagName = {props.tags[0]}/>
+    <Tag tagName = {props.tags[1]}/>
+    <Tag tagName = {props.tags[2]}/>
+    <Tag tagName = {props.tags[3]}/>
   </div>;
 }
